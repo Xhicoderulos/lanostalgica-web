@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('images/hero.jpg') center/cover;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+}
+
+.gallery .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+}
